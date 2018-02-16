@@ -1,37 +1,88 @@
-# CV
-CV Web
 
 body {
-background-color : rgb(171,226,120);
-margin : 10px;
-font-family: Verdana, sans-serif;
+  margin:0;
+  padding:0;
+  background-color : whitesmoke;
+  font-family: Arial, sans-serif;
+  font-size:1em;
 }
 
 header {
-text-align: center;
-background-color: rgb(68,172,82);
-color: rgb(255,255,255);
-font-size:200%;
-padding : 5%;
+  display: block;
+  text-align: center;
+  background-color: rgb(68,172,82);
+  color: rgb(255,255,255);
+  font-size:3em;
+  width:100vw;
+  height:20vh;
+  min-height: 200px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+header img {
+  width: 150px;
+  border: 3px solid black;
+  margin-left: 1em;
+  margin-top : 30px;
+}
+
+img {
+  width: 110px;
+  float: left;
+  display: block;
+}
+aside img {
+  width:180px;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  min-width:400px;
+  height:80vh;
+}
+
+aside {
+  height:100vh;
+  min-width: 200px;
+  padding: 15px;
+  text-align: left;
+  background-color: silver;
 }
 
 section {
-margin-left: 160px;
+  padding-left: 100px;
+  display: block;
 }
 
-nav {
-float: left;
-width: 140px;
-height: 300px;
-text-align: center;
-background-color: rgb(255,255,255);
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
-h3 {
-border: 1px solid rgb(255,0,0);
+p a {
+  text-decoration:underline;
+  color: white;
+  background-color: #4CAF50
 }
 
-.style1 {
-font-style: italic;
-font-size: 120%;
+.but{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: solid #4CAF50 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:10px;
+  min-width: 150px;
+   transition-duration: 1s;
+}
+.but:hover{
+  background-color: whitesmoke;
+  border: solid #4CAF50 2px;
+  color: #4CAF50;
 }
